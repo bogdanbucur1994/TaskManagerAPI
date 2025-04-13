@@ -90,7 +90,7 @@ This API serves as a proof of concept (POC) to demonstrate:
 - Introduce DTOs for better separation of concerns between API and domain models.
 - Replace the in-memory database and queue with production-ready implementations.
 - Refactor into a multi-project solution for improved modularity and scalability.
-- Adopt DDD principles for a more robust domain model.
+- Adopt DDD principles for a more robust domain model - as the project grows; does not make sense for such a simple CRUD app and was not requested in the initial requirements.
 - Expand unit test coverage.
 - Enhance test reliability and fix existing issues.
 - Install Docker and DOCKERize using Dockerfile
