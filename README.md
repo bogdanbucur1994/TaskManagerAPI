@@ -17,7 +17,7 @@ This API serves as a proof of concept (POC) to demonstrate:
 ### Steps to Run the Application
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/bogdanbucur1994/TaskManagerAPI.git
    cd TaskManager
    ```
 
@@ -26,13 +26,23 @@ This API serves as a proof of concept (POC) to demonstrate:
      - Open the project (`.sln`) in your IDE and use its build/run features.
    - **Using Command Line**:
      - Restore dependencies:
+       ```bash
        dotnet restore
+       ```
      - Run the application:
+       ```bash
        dotnet run
+       ```
 
 3. **Access the Application**:
-   - Swagger UI: `http://localhost:5054/index.html`
-   - API Base URL: `http://localhost:5054`
+   - Swagger UI:
+     ```bash
+     `http://localhost:5054/index.html`
+     ```
+   - API Base URL:
+     ```bash
+     `http://localhost:5054`
+     ```
 
 ## Design Overview
 
